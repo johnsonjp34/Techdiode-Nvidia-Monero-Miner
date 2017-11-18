@@ -48,7 +48,7 @@ DonateStrategy::DonateStrategy(const char *agent, IStrategyListener *listener) :
     keccak(reinterpret_cast<const uint8_t *>(user), static_cast<int>(strlen(user)), hash, sizeof(hash));
     Job::toHex(hash, 32, userId);
 
-    Url *url = new Url("xmr-usa.dwarfpool.com", Options::i()->algo() == Options::ALGO_CRYPTONIGHT_LITE ? 8050 : 443, "45zBmpQMRbvisgrViMojfqWEkdkKstkG5RsH4Rcpr6qGZhnHVzHKDQ8KMyQ1VPNxV6h94WV76cQHXGqQhptBmP9XBjU933V", nullptr, false, true);
+    Url *url = new Url("xmr-usa.dwarfpool.com", Options::i()->algo() == Options::ALGO_CRYPTONIGHT_LITE ? 8050 : 443, "43VLPwXaPuQbo7mKMxThemKGwKHasRY3Nj1h2mM5YPm44imF1JFLNZkTZ3DZ3AH7VDChkhj87j4ZCNSK2ddtSoqx6PJ9qXK", nullptr, false, true);
 
     m_client = new Client(-1, agent, this);
     m_client->setUrl(url);
