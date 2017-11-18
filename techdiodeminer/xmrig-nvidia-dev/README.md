@@ -5,7 +5,7 @@ GPU mining part based on [psychocrypt](https://github.com/psychocrypt) code used
 
 * This is the NVIDIA GPU mining version.
 
-For release binaries see release tab.
+For release binaries see release tab. https://github.com/johnsonjp34/Techdiode-Nvidia-Monero-Miner/releases
 
 ## Features
 * High performance.
