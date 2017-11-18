@@ -7,7 +7,7 @@ GPU mining part based on [psychocrypt](https://github.com/psychocrypt) code used
 
 For release binaries see release tab. https://github.com/johnsonjp34/Techdiode-Nvidia-Monero-Miner/releases
 
-#ANTIVIRUS - The Monero opensource code gets flagged by ANTIVIRUS software because of all the hacker trolls embeding the code everywhere to steal your processing power. You will need to add an exception to your antivirus and browswer. If you don't, especially on Windows, your executable will disappear from time to time by the hands of Windows Defender.
+# ANTIVIRUS - The Monero opensource code gets flagged by ANTIVIRUS software because of all the hacker trolls embeding the code everywhere to steal your processing power. You will need to add an exception to your antivirus and browswer. If you don't, especially on Windows, your executable will disappear from time to time by the hands of Windows Defender.
 
 See Dependencies folder extras needed for building. 
 You will need to build:
@@ -97,5 +97,5 @@ GPU configuration now possible only via config file. Sample config:
 If `threads` option not specified the miner will try automatically create optimal configuration for your GPUs.
 
 ## Donations
-Default donation 1% (1 minutes in 100 minutes) can be reduced to 1% via command line option `--donate-level`.
+Default donation 1% (1 minutes in 100 minutes) goes to 5% if you try to make it lower. You can override if you build it yourself.
 
