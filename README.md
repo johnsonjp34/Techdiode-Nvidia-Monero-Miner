@@ -15,7 +15,7 @@ the Cuda Toolkit 8.
 CMake 64 
 
 make a build directory in your project. cd into it and do:
-cmake .. -G "Visual Studio 15 2017 Win64" -T v140,host=x64 -DUV_INCLUDE_DIR="c:\<path>\msvc2015\libuv\x64\include" -DUV_LIBRARY="c:\<path>\msvc2015\libuv\x64\lib\libuv.lib" -DMHD_INCLUDE_DIR="c:\<path>\msvc2015\libmicrohttpd\x64\include" -DMHD_LIBRARY="c:\<path>\msvc2015\libmicrohttpd\x64\lib\libmicrohttpd.lib"
+```` cmake .. -G "Visual Studio 15 2017 Win64" -T v140,host=x64 -DUV_INCLUDE_DIR="c:\<path>\msvc2015\libuv\x64\include" -DUV_LIBRARY="c:\<path>\msvc2015\libuv\x64\lib\libuv.lib" -DMHD_INCLUDE_DIR="c:\<path>\msvc2015\libmicrohttpd\x64\include" -DMHD_LIBRARY="c:\<path>\msvc2015\libmicrohttpd\x64\lib\libmicrohttpd.lib" ````
 -make sure you change the path to where you have downloaded the deps folder
 
 ## Features
